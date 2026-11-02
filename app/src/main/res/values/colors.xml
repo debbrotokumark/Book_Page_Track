@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium Navy & Gold Palette -->
+    <color name="primary">#1A365D</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D4E3FF</color>
+    <color name="on_primary_container">#001C3A</color>
+
+    <color name="secondary">#9A7A30</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#FFE3A9</color>
+    <color name="on_secondary_container">#251A00</color>
+
+    <color name="tertiary">#48607C</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#D0E4FF</color>
+    <color name="on_tertiary_container">#001D34</color>
+
+    <color name="background">#F7F9FC</color>
+    <color name="on_background">#1A1C1E</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1A1C1E</color>
+    <color name="surface_variant">#DFE2E6</color>
+    <color name="on_surface_variant">#43474E</color>
+
+    <color name="outline">#73777F</color>
+    <color name="outline_variant">#C3C6CF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Gradients & Shadows -->
+    <color name="gradient_start">#1A365D</color>
+    <color name="gradient_end">#2C4F7C</color>
+</resources>

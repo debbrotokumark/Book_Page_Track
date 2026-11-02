@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Premium Application Theme -->
+    <style name="Base.Theme.BookPageTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary Brand Colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        <!-- Shapes -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+
+        <!-- Custom Component Styles -->
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="android:textViewStyle">@style/Widget.App.TextView</item>
+    </style>
+
+    <style name="Theme.BookPageTrack" parent="Base.Theme.BookPageTrack" />
+
+    <!-- Typography -->
+    <style name="H">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Subtext">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <!-- Shapes -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- Widgets -->
+    <style name="Widget.App.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/text_input_stroke</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="Widget.App.TextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

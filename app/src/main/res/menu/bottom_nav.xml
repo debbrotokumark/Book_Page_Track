@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_lib" android:icon="@android:drawable/ic_menu_agenda" android:title="লাইব্রেরি" />
+    <item android:id="@+id/nav_cal" android:icon="@android:drawable/ic_menu_my_calendar" android:title="ক্যালেন্ডার" />
+    <item android:id="@+id/nav_ana" android:icon="@android:drawable/ic_menu_sort_by_size" android:title="অ্যানালিটিক্স" />
+    <item android:id="@+id/nav_set" android:icon="@android:drawable/ic_menu_preferences" android:title="সেটিং" />
+</menu>
